@@ -1,0 +1,13 @@
+{
+  "name": "huggingface-blog-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for Hugging Face blog posts",
+  "main": "src/scraper.js",
+  "scripts": {
+    "start": "node src/scraper.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
